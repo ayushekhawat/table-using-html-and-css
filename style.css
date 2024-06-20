@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    Width: 2000px;
+    Height: 750px;
+    border:1px;
+    padding: 24px;
+    gap:24px;
+}
+
+.card-body {
+    padding: 20px;
+}
+.cscont{
+    margin-top: 10px;
+    gap:24px;
+    
+}
+.caption-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    width:100%;
+    
+}
+.table-container {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 4000px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+
+thead {
+    background-color: #f8f9fa;
+}
+
+thead th {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid #dee2e6;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+tbody{
+    border-radius: 10px;
+    border : 0.1px solid #c9ced3
+}  
+
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+tbody td img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+select {
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 18px;
+    unicode-bidi: isolate;
+}
+
+.btn-group button {
+    margin-right: 5px;
+}
+
+.btn-group button.active {
+    background-color: #007bff;
+    color: white;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.view-items {
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    position: relative;
+    width: 300px;
+    top:10%;
+    
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px 40px 10px 10px; 
+   
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: #a4a6a8;
+}
+
+.search-container .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
